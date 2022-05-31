@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_nuber",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleStroage.sol": "SimpleStroage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStroage.sol": {
+			"keccak256": "0x845d6a186eddd04d99103c7cc99cdacc52c7ee817ea4660721043f87afd47a08",
+			"urls": [
+				"bzz-raw://a60e4822cec1c5c6da683f1ca6d8346b348f1904cbc276c4a1ad0a1e84ce5459",
+				"dweb:/ipfs/QmZn2gekfZMuSUwWwnCCVrdu2k22LJyAKeDrj7XVRi3DNz"
+			]
+		}
+	},
+	"version": 1
+}
